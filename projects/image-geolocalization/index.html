@@ -1,1 +1,159 @@
-
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>City Scale Image Geolocalization via Dense Scene Alignment</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="title" content="City Scale Image Geolocalization via Dense Scene Alignment" />
+        <meta name="description" content="In this paper, we propose a data-driven approach to predict where a photo was taken.">
+        <meta name="author" content="Semih Yagcioglu, Erkut Erdem, Aykut Erdem">
+        <meta name="keywords" content="Image Geolocalization, Dense Scene Alignment, Data-Driven, WACV 2015, IEEE Winter Conference on Applications of Computer Vision" />
+        <!--Facebook and Twitter Descriptions-->
+        <meta property="og:title" content="City Scale Image Geolocalization via Dense Scene Alignment" />
+        <meta property="og:description" 
+            content="In this paper, we propose a data-driven approach to predict where a photo was taken." />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://dl.dropboxusercontent.com/u/16169065/image-geolocalization-sample-results-wacv2015.png" />
+        <meta property="og:site_name" content="Semih Yagcioglu" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@semihyagcioglu" />
+        <meta name="twitter:title" content="City Scale Image Geolocalization via Dense Scene Alignment" />
+        <meta name="twitter:description" content="In this paper, we propose a data-driven approach to predict where a photo was taken." />
+        <meta name="twitter:image" content="https://dl.dropboxusercontent.com/u/16169065/image-geolocalization-sample-results-wacv2015.png" />
+        <!--End of Facebook and Twitter Descriptions-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>figure{margin:0}.tmblr-iframe{position:absolute}.tmblr-iframe.hide{display:none}</style>
+        <link rel="canonical" href="http://www.semihyagcioglu.com/projects/image-geolocalization">
+        <link rel="shortcut icon" href="http://vision.cs.hacettepe.edu.tr/ico/favicon.png">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link media="all" href="style.css" type="text/css" rel="StyleSheet">
+        <style type="text/css" media="all">
+            #primarycontent {
+            MARGIN-LEFT: auto;
+            MARGIN-RIGHT: auto; 
+            TEXT-ALIGN: justify; 
+            max-width: 700px;
+            width: 80%;
+            }
+            BODY {
+            TEXT-ALIGN: center;
+            }
+        </style>
+        <link rel="canonical" href="/projects/image-geolocalization" />
+    </head>
+    <body>
+        <!--YANDEX IMAGE-->
+        <div><img src="//mc.yandex.ru/watch/22127711" style="position:absolute; left:-9999px;" alt="" /></div>
+        <br>
+        <div id="primarycontent">
+            <center>
+                <h1>City Scale Image Geolocalization via Dense Scene Alignment</h1>
+                <p>WACV 2015: IEEE Winter Conference on Applications of Computer Vision</p>
+                <h4>
+                    <a href="http://www.semihyagcioglu.com">Semih Yagcioglu</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="http://web.cs.hacettepe.edu.tr/~erkut">Erkut Erdem</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="http://web.cs.hacettepe.edu.tr/~aykut">Aykut Erdem</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <h5 style="
+                        font-size: 15px;
+                        margin-top: -10px;
+                        font-weight: normal;
+                        ">Hacettepe University Computer Vision Lab (HUCVL)
+                        <br>
+                        Dept. of Computer Engineering, Hacettepe University, Ankara, TURKEY 
+                    </h5>
+                </h4>
+                <br>
+                <table class="image" align="center">
+                    <tbody>
+                        <tr>
+                            <td><img width="100%" src="projects/image-geolocalization/files/image-geolocalization-overview-wacv2015.png" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br/>
+                <div style="width: 90%;text-align: justify; font-size:90%">System Overview. For a query image, our coarse-to-fine approach first finds the top matches in the dataset using GIST and Tiny Image descriptors, which is followed by an outlier removal procedure. This initial set of images is then refined by densely aligning the retrieved images using DSP matching and accordingly removing the outliers this time by consider the alignment scores.</div>
+            </center>
+            <br>
+            <h2>Abstract</h2>
+            <p>
+                Predicting where a photo was taken is quite important and yet a challenging task for computer vision algorithms. Our motivation is to solve this difficult problem in a city-scale setting by employing a data-driven approach. In order to pursue this goal, we developed a fast and robust scene matching method that follows a coarse-to-fine strategy. In particular, we combine scene retrieval via global features and dense scene alignment and use a large set of geo-tagged images of downtown San Francisco in our evaluation. The experimental results show that the proposed approach, despite its simplicity, is surprisingly effective and achieves comparable results with the state-of-the-art.
+            </p>
+            <a href="projects/image-geolocalization/files/image-geolocalization-wacv2015.pdf"><img style="float: left; padding: 10px; PADDING-RIGHT: 30px;" alt="paper thumbnail" src="projects/image-geolocalization/files/image-geolocalization-wacv2015.png"></a>
+            <h2>Paper</h2>
+            <a href="projects/image-geolocalization/files/image-geolocalization-wacv2015.pdf">image-geolocalization-wacv2015.pdf</a> (8.2MB)<br>
+            <h2>Supplementary Material</h2>
+            Poster - <a href="projects/image-geolocalization/files/image-geolocalization-poster-wacv2015.pdf">image-geolocalization-poster-wacv2015.pdf</a> (1MB)<br>
+            Slides - <a href="projects/image-geolocalization/files/image-geolocalization-slides-wacv2015.pdf">image-geolocalization-slides-wacv2015.pdf</a> (7.2MB)<br><br><br><br><br><br>
+            <h2>Results</h2>
+            <center>
+                <table class="image" align="center">
+                    <tbody>
+                        <tr>
+                            <td><img width="100%" src="projects/image-geolocalization/files/image-geolocalization-sample-results-wacv2015.png" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br/>
+                <div style="width: 90%;text-align: center; font-size:90%">Query images (left) and retrieved images from the dataset (right).</div>
+            </center>
+            <h2>Code</h2>
+            <a href="code/image-geolocalization-code.zip"></a> <a href="https://github.com/semihyagcioglu/image-geolocalization">Github Repository</a> with detailed instructions. You can also download Matlab code as <a href="https://github.com/semihyagcioglu/image-geolocalization/archive/master.zip">master.zip</a><br>
+            <h2>Citation</h2>
+            <p>S. Yagcioglu, E. Erdem, A. Erdem. <a href="projects/image-geolocalization/files/image-geolocalization-wacv2015.pdf"><em>
+                City Scale Image Geolocalization via Dense Scene Alignment</em></a>. The WACV 2015: IEEE Winter Conference on Applications of Computer Vision, Hawaii, USA, January 2015 
+            </p>
+            <h2>Bibtex</h2>
+            <pre id="bibtex" style="font-size: 80%;">@inproceedings&#123;yagcioglu2015city,
+author &#09;= &#123;Yagcioglu, Semih and Erdem, Erkut and Erdem, Aykut&#125;,
+title &#09;= &#123;City Scale Image Geolocalization via Dense Scene Alignment&#125;,
+booktitle = &#123;Applications of Computer Vision (WACV), 2015 IEEE Winter Conference on&#125;,
+year &#09;= &#123;2015&#125;,
+organization &#09;= &#123;IEEE&#125;&#125;
+</pre>
+            <h2>Contact</h2>
+            <p>For comments and questions, please contact <a href="http://www.semihyagcioglu.com">Semih Yagcioglu</a>.</p>
+            <h2>Copyright</h2>
+            <p style="font-size:80%;">
+                The documents contained in these directories are included by the contributing authors as a means to ensure timely dissemination of scholarly and technical work on a non-commercial basis. Copyright and all rights therein are maintained by the authors or by other copyright holders, notwithstanding that they have offered their works here electronically. It is understood that all persons copying this information will adhere to the terms and constraints invoked by each author's copyright. These works may not be reposted without explicit permission of the copyright holder.
+            </p>
+        </div>
+        <script>
+            //START OF METRICA TRACKER
+            (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter22127711 = new Ya.Metrika({id:22127711,
+                            webvisor:true,
+                            clickmap:true,
+                            trackLinks:true,
+                            accurateTrackBounce:true});
+                } catch(e) { }
+            });
+            
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+            
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+            })(document, window, "yandex_metrika_callbacks");
+            
+            //START OF GOOGLE ANALYTICS TRACKER
+            
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            
+            ga('create', 'UA-728609-1', 'auto');
+            ga('send', 'pageview');
+            
+        </script>
+        </body>
+</html>
