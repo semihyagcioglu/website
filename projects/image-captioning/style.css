@@ -1,12 +1,11 @@
 TABLE {
 	VERTICAL-ALIGN: top; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
 }
-BODY {
-	FONT-SIZE: 13px; COLOR: black; 
+/*BODY {
+FONT-SIZE: 13px; COLOR: black; 
 font-family: Verdana;
-/*font-family: Georgia, serif;*/
 BACKGROUND-COLOR: #fefefe;
-}
+}*/
 IMG {
 	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
 }
