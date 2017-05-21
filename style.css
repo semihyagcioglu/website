@@ -2,7 +2,7 @@ body {
     color: #222;
     font-family: 'Quattrocento', serif;
     font-weight: normal;
-    background-color: #fefefe;
+    background-color: #fff;
 }
 
 input:focus {outline:none !important;}
